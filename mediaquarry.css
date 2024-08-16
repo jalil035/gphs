@@ -1,0 +1,126 @@
+@media screen and (max-width:1399px){
+    .navbar_custom{
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .media_quarry{
+        display: flex;
+        justify-content: center;
+    }
+    .text-hed h1{
+        font-size: 2.4rem;
+        margin: 0 auto;
+    }
+    .logo_1{
+        height: 80px;
+
+    }
+    .notice_tow{
+        font-size: 10px;
+    }
+    .navbar_custom a{
+        font-size: 12px;
+        padding: 0 1rem;
+    }
+    .content_hedline h2{
+        font-size: 12px;
+    }
+    .body_content_body{
+        font-size: 13px;
+    }
+    .body_images{
+        width: 40px;
+    }
+    .body_images img{
+        width: 100%;
+    }
+    .small_card_body span{
+        font-size: 12px;
+    }
+    .office_order_hedlin h3{
+        font-size: 12px;
+    }
+    .footer_body p{
+        font-size: 11px;
+    }
+    .footer_body1 p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .logo_1{
+        height: 80px;
+        margin-left: 180px;
+    }
+    .notice_tow{
+        font-size: 10px;
+    }
+    .text-light{
+        font-size: 10px;
+    }
+    .content_hedline h2{
+        font-size: 10px;
+    }
+    .content_text span{
+        font-size: 12px;
+    }
+    .body_content_body{
+        font-size: 12px;
+    }
+    .small_card_body span{
+        font-size: 15px;
+    }
+    .office_order_hedlin h3{
+        font-size: 16px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .text-hed h1{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .logo_1{
+        height: 60px;
+        margin-left: 130px;
+    }
+    .table_font_siz{
+        font-size: 10px;
+    }
+    .body_content_body{
+        font-size: 15px;
+    }
+    .small_card_body span{
+        font-size: 15px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:576px){
+    .text-hed h1{
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .logo_1{
+        height: 60px;
+        margin-left: 80px;
+    }
+    .body_content_body{
+        font-size: 17px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 30vh;
+    }
+}
