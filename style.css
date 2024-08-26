@@ -51,7 +51,7 @@ body{
     border-right: .1rem solid white;
 }
 .navbar_custom:hover{
-    background: #04ad59;
+    background: #0084ff;
 }
 /* navbar section End */
 
@@ -77,12 +77,18 @@ body{
     font-size: 1.5rem;
 }
 /* containt section start */
+.content{
+    border: .1rem solid rgba(128, 128, 128, 0.279);
+}
 .content_hedline{
     width: 100%;
     height: 4rem;
     background: #0D6EFD;
     border-radius: .5rem;
     margin-bottom: .8rem;
+}
+.containt_body{
+    padding: 1rem;
 }
 .content_hedline h2{
     text-align: center;
@@ -91,17 +97,15 @@ body{
     font-weight: 600;
     font-size: 1.8rem;
 }
-.containt_body{
-    display: flex;
-    gap: .5rem;
-}
 .contnte_image{
-    width: 100rem;
+    width: 10rem;
 }
 .contnte_image img{
     width: 100%;
-    border: .2rem solid tomato;
+    border: .2rem solid #0D6EFD;
     border-radius: 1rem;
+    float: left;
+    margin: 0 .8rem 0 0;
 }
 .content_text{
     font-size: 1.3rem;
